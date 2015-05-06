@@ -1,0 +1,8 @@
+default:
+    extensions:
+        Behat\MinkExtension\Extension:
+            base_url: http://www.yoursite.com
+            goutte: ~
+        M6Web\Behat\SEOExtension\Extension:
+            robots_file: %behat.paths.base%/data/robots.txt
+            rules_file: %behat.paths.base%/data/rules.csv

@@ -1,0 +1,7 @@
+{
+    "require": {
+        "m6web/seo-behat-extension": "dev-master",
+        "behat/mink-goutte-driver": "1.0.*@dev"
+    },
+    "minimum-stability": "dev"
+}
